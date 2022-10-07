@@ -1,0 +1,39 @@
+.Upload .Input {
+	border: 1px solid rgb(213, 214, 216);
+	border-radius: 4px;
+	color: rgb(60, 66, 87);
+	cursor: pointer;
+	display: block;
+	min-height: 20px;
+	line-height: 20px;
+	padding: 8px 12px;
+	width: calc(100% - 24px - 2px);
+}
+
+.Upload .Input:hover {
+	background: rgb(248, 250, 252);
+}
+
+.Upload .Input input[type='file'] {
+	display: none;
+}
+
+.Upload .Error {
+	color: rgb(220, 29, 18);
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.Upload .Pulse {
+	animation: pulse 1.25s ease-in-out 0s alternate infinite;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

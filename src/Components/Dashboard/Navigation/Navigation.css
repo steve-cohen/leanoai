@@ -1,0 +1,40 @@
+.Navigation {
+	background: rgb(18, 25, 44);
+	border-bottom: 1px solid rgb(237, 238, 240);
+	color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	line-height: 40px;
+	overflow: auto;
+	padding: 0 2vw;
+	white-space: pre;
+	width: calc(100% - 4vw);
+}
+
+.Navigation div div {
+	display: inline-block;
+	cursor: pointer;
+	padding-right: 24px;
+}
+
+.Navigation div div:hover {
+	text-decoration: underline;
+}
+
+.Navigation div div svg {
+	fill: rgb(255, 255, 255);
+	display: inline-block;
+	height: 13px;
+	padding-right: 5px;
+	vertical-align: middle;
+	width: 13px;
+}
+
+.Navigation .UploadNewFile label {
+	cursor: pointer;
+}
+
+.Navigation .UploadNewFile input {
+	display: none;
+}

@@ -1,0 +1,89 @@
+.Video {
+	position: sticky;
+	top: 50px;
+}
+
+.Video video {
+	border-radius: 4px;
+	cursor: pointer;
+	min-width: 300px;
+	max-width: 300px;
+}
+
+/* Controls */
+.controlsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+	position: absolute;
+	top: calc(50% - 30px);
+	z-index: 10;
+	transition: 0.2s linear;
+}
+
+.controls {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.controlsIcon {
+	cursor: pointer;
+	height: 30px;
+	padding: 10px;
+	width: 30px;
+}
+
+svg {
+	filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.48));
+}
+
+.controlsIcon--small {
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+/* The time controls section */
+.timecontrols {
+	bottom: 0;
+	color: white;
+	font-weight: 500;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 16px;
+	position: absolute;
+	transition: 0.2s linear;
+	width: calc(100% - 32px);
+	left: 0;
+}
+
+.ProgressBarTarget {
+	cursor: pointer;
+	margin: 0 20px;
+	padding: 10px 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.time_progressbarContainer {
+	background-color: gray;
+	border-radius: 15px;
+	height: 5px;
+}
+
+.time_progressBar {
+	border-radius: 15px;
+	background-color: white;
+	height: 100%;
+}
+
+.controlsTime {
+	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.48));
+}

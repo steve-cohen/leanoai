@@ -1,0 +1,52 @@
+.Clip .Download button {
+	all: initial;
+	all: inherit;
+	color: rgb(0, 102, 204);
+	font-weight: 500;
+	padding: 0;
+}
+
+.Clip .Download button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Clip .Downloading button {
+	color: rgb(60, 66, 87);
+	cursor: default;
+	text-decoration: none;
+}
+
+.Clip .Downloading button:before {
+	background: rgb(60, 66, 87);
+}
+
+.Clip .Duration,
+.Clip .End,
+.Clip .Start {
+	cursor: default !important;
+	text-align: right;
+}
+
+.Clips .Duration:hover,
+.Clips .End:hover,
+.Clips .Start:hover {
+	text-decoration: none !important;
+}
+
+.Clip .Duration {
+	font-weight: 500;
+}
+
+.Clip .Transcript {
+	line-height: 1.5;
+	max-width: 600px;
+	text-align: justify;
+	white-space: pre-wrap;
+	width: 100%;
+}
+
+/* .Clip .Transcript div {
+	max-height: 147px;
+	overflow: hidden;
+} */

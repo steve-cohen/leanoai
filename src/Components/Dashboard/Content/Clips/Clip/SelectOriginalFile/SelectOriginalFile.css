@@ -1,0 +1,13 @@
+.SelectOriginalFile {
+	color: rgb(220, 29, 18);
+	cursor: pointer;
+	font-weight: 500;
+}
+
+.SelectOriginalFile:hover {
+	text-decoration: underline;
+}
+
+.SelectOriginalFile input {
+	display: none;
+}

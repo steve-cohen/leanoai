@@ -1,0 +1,31 @@
+.Clips {
+	max-width: 100%;
+	min-width: 800px;
+}
+
+.Clips .Duration,
+.Clips .End,
+.Clips .Start {
+	cursor: pointer;
+	text-align: right;
+}
+
+.Clips .Duration:hover,
+.Clips .End:hover,
+.Clips .Start:hover {
+	text-decoration: underline;
+}
+
+.Clips .Pulse {
+	animation: pulse 1.25s ease-in-out 0s alternate infinite;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

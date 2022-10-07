@@ -1,0 +1,41 @@
+.Subscription {
+	background: rgb(248, 249, 251);
+	border-bottom: 1px solid rgb(237, 238, 240);
+	color: rgb(220, 29, 18);
+	display: block;
+	font-weight: 500;
+	line-height: 40px;
+	overflow: auto;
+	padding: 0 2vw;
+	white-space: pre;
+	width: calc(100% - 4vw);
+}
+
+.Subscription:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.Subscription div {
+	cursor: inherit;
+	display: inline-block;
+	text-decoration: inherit;
+	vertical-align: middle;
+}
+
+.Subscription svg {
+	fill: rgb(220, 29, 18);
+	filter: none;
+	display: inline-block;
+	height: 13px;
+	padding-right: 5px;
+	vertical-align: middle;
+	width: 13px;
+}
+
+.SubscriptionEmpty {
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+	height: 40px;
+	padding: 0 2vw;
+	width: calc(100% - 4vw);
+}

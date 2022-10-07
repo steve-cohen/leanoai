@@ -1,0 +1,11 @@
+.PastFiles tr {
+	cursor: pointer;
+}
+
+.PastFiles .Size {
+	text-align: right;
+}
+
+.PastFiles .Type {
+	width: 100%;
+}

@@ -1,0 +1,101 @@
+table {
+	border: none;
+	border-collapse: separate;
+	border-spacing: 0;
+	color: rgb(66, 69, 82);
+	font-family: -apple-system, 'system-ui', 'Inter', 'Helvetica Neue', sans-serif !important;
+	font-feature-settings: 'pnum';
+	font-variant-numeric: proportional-nums;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	margin: 2vw 0;
+	padding: 0 2vw;
+	width: 100%;
+}
+
+table caption {
+	color: rgb(26, 27, 29);
+	font-size: 18px;
+	font-weight: 500;
+	left: 0;
+	margin-bottom: 1vw;
+	padding-left: calc(2vw + 8px);
+	text-align: left;
+	white-space: pre;
+}
+
+table tbody tr:hover {
+	background: rgb(248, 249, 251);
+}
+
+table tbody tr td,
+table tfoot tr td,
+table thead tr th {
+	border-bottom: 1px solid rgb(237, 238, 240);
+	height: 20px;
+	padding: 8px;
+}
+
+table tbody tr td {
+	vertical-align: top;
+	width: 1%;
+	white-space: nowrap;
+}
+
+table thead tr {
+	background: rgb(255, 255, 255);
+	color: rgb(26, 27, 29);
+	font-size: 11px;
+	font-weight: 500;
+	text-align: left;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+table thead tr th {
+	background: rgb(255, 255, 255);
+	color: rgb(26, 27, 37);
+	font-size: 11px;
+	font-weight: 500;
+}
+
+table tfoot tr td {
+	border-bottom: none;
+	white-space: nowrap;
+}
+
+table .Bold {
+	color: rgb(10, 37, 66);
+	font-weight: 500;
+}
+
+table .Break {
+	width: 100%;
+}
+
+table .Link {
+	color: rgb(0, 102, 204);
+	cursor: pointer;
+	text-decoration: none;
+}
+
+table .Link:hover {
+	text-decoration: underline;
+}
+
+table .Right {
+	text-align: right;
+}
+
+.ResponsiveTable {
+	margin-bottom: 60px;
+	/* overflow-x: auto; */
+}
+
+@media only screen and (max-width: 800px) {
+	table caption .Flex {
+		justify-content: flex-start;
+	}
+}

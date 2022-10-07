@@ -1,0 +1,15 @@
+.Warnings {
+	max-width: 100%;
+	min-width: 800px;
+}
+
+.Warnings tbody tr td {
+	white-space: normal;
+}
+
+.Warnings .Labels {
+	color: rgb(220, 29, 18);
+	font-weight: 500;
+	text-transform: capitalize;
+	white-space: pre;
+}

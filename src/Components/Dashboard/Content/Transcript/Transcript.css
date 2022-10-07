@@ -1,0 +1,42 @@
+.Transcript table {
+	line-height: 1.5;
+	margin: 40px auto;
+	max-width: calc(100% - 2vw);
+	width: 1000px;
+}
+
+.Transcript table tbody tr .Paragraph {
+	text-align: justify;
+	white-space: pre-line;
+}
+
+.TranscriptNavigation {
+	background: rgb(248, 249, 251);
+	border-bottom: 1px solid rgb(237, 238, 240);
+	color: rgb(26, 27, 29);
+	font-weight: 500;
+	line-height: 40px;
+	overflow: auto;
+	padding: 0 1vw;
+	white-space: pre;
+	width: calc(100% - 2vw);
+}
+
+.TranscriptNavigation div {
+	display: inline-block;
+	cursor: pointer;
+	padding-right: 24px;
+}
+
+.TranscriptNavigation div:hover {
+	text-decoration: underline;
+}
+
+.TranscriptNavigation div svg {
+	fill: rgb(255, 255, 255);
+	display: inline-block;
+	height: 13px;
+	padding-right: 5px;
+	vertical-align: middle;
+	width: 13px;
+}

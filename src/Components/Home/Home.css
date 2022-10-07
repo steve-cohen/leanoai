@@ -1,0 +1,86 @@
+.Hero {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 20px;
+	width: calc(100vw - 40px);
+}
+
+.Hero .Action {
+	margin-top: 24vh;
+	width: fit-content;
+}
+
+.Hero .Title {
+	color: rgb(10, 37, 64);
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: -0.4px;
+	line-height: 1.25;
+	white-space: pre;
+}
+
+.Hero a {
+	display: inline-block;
+}
+
+.Hero .Action .GetStarted {
+	border: 1px solid rgb(227, 227, 227);
+	border-radius: 6px;
+	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.08);
+	color: rgb(0, 102, 204);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	margin-top: 24px;
+	padding: 10px 16px;
+	transition: 0.2s;
+	width: fit-content;
+}
+
+.Hero .Action .GetStarted:hover {
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.12);
+	text-decoration: underline;
+}
+
+.Hero .Action .Description {
+	color: rgb(66, 84, 102);
+	font-size: 16px;
+	line-height: 1.6;
+	margin-top: 20px;
+	max-width: 400px;
+}
+
+.Hero .Action .SignIn {
+	color: rgb(10, 37, 64);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 10px 20px;
+}
+
+.Hero .Action .SignIn:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 850px) {
+	.Hero .Action .Description {
+		font-size: 15px;
+	}
+
+	.Hero .Title {
+		font-size: 36px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.Hero .Action .Description {
+		font-size: 14px;
+	}
+
+	.Hero .Title {
+		font-size: 26px;
+	}
+}
